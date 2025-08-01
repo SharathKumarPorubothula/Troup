@@ -4,6 +4,7 @@ import CTASection from './components/CTASection';
 import BalancedLayout from './components/balance';
 import Footer from './components/Footer';
 import { useEffect, useState } from 'react';
+import SplitContentLayout from './components/content'
 import './App.css'
 
 function App() {
@@ -41,7 +42,8 @@ function App() {
         {/* Section without video */}
         <div className="cta-wrapper">
         </div>
-        <BalancedLayout/>
+        {/* <BalancedLayout/> */}
+          <SplitContentLayout/>
           <CTASection />
         <Footer/>
       </div>
