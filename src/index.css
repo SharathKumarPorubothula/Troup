@@ -1,0 +1,40 @@
+/* Base styles */
+/* body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background: linear-gradient(135deg, #000000, #111111);
+} */
+
+/* html, body, #root {
+  height: 100%;
+  width: 100%;
+  background: black;
+} */
+
+/* Video only in top section */
+/* .video-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+} */
+
+/* Background video setup */
+/* .background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  pointer-events: none;
+  filter: brightness(0.6);
+} */
+
+/* CTA Section - Black background */
+/* .cta-wrapper {
+  background-color: black;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+} */

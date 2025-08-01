@@ -1,0 +1,42 @@
+/* Preloader Styles */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+  opacity: 1;
+  transition: opacity 1000ms;
+}
+
+.preloader-logo {
+  width: 12rem; /* Equivalent to w-48 (48 * 0.25rem = 12rem) */
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Existing styles (keep these as they were) */
+.video-section {
+  /* Your existing styles */
+}
+
+.background-video {
+  /* Your existing styles */
+}
+
+.cta-wrapper {
+  /* Your existing styles */
+}
