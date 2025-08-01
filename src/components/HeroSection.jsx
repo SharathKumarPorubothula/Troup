@@ -148,7 +148,7 @@ const MainContent = () => {
       
         <video autoPlay loop muted playsInline className="hero-video">
           {/* <source src="../../public/bg.mp4" type="video/mp4" /> */}
-          <source src="../../public/aMPvRVYHFQxBoB0v2qyJln83jI.mp4" type="video/mp4" />
+          <source src="https://framerusercontent.com/assets/aMPvRVYHFQxBoB0v2qyJln83jI.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="video-overlay"></div>
